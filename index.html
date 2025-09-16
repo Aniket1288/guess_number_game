@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess the Number</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>🎯 Guess the Number</h2>
+    <p>Enter a number between 1 and <span id="max-num"></span></p>
+    <input type="number" id="guessInput" placeholder="Enter your guess" />
+    <button onclick="checkGuess()">Guess</button>
+    <p class="message" id="message"></p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
